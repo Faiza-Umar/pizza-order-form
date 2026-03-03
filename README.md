@@ -1,4 +1,4 @@
-# 🍕pizza order form
+# pizza order form
 
 A clean, structured, and user-friendly pizza ordering web application built using HTML5 and CSS3.
 
@@ -30,7 +30,7 @@ This project demonstrates strong fundamentals in form handling, layout structuri
 
 ## Project Preview
 
-![Project Screenshot](pizza.png)
+![Project Screenshot](screenshot.png)
 
 ---
 
