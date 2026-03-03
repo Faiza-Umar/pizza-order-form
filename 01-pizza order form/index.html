@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head><title>pizza order</title>
+<style>
+img{
+    border:2px solid transparent;
+    border-radius: 50%;
+}
+</style>
+</head>
+
+<body bgcolor="FF9933" text="white">
+<h1 align="center"><u>Yummy Pizza</u></h1>
+<table align="center">
+<tr>
+<td valign="bottom"><img src="pizza.png.png" height="130" width="130"> </td>
+<td valign="bottom"><img src="pizza.png.png" height="155" width="155"></td>
+<td valign="bottom"><img src="pizza.png.png" height="200" width="200" ></td>
+<td valign="bottom"><img src="pizza.png.png" height="250" width="250"></td>
+</tr>
+<tr>
+<td><h3 align="center"><h3>Small pizza</h3>  </td>
+<td><h3 align="center">Medium Pizza</h3></td>
+<td><h3 align="center">Large Pizza</h3></td>
+<td><h3 align="center">Family Pizza</h3> </td>
+</tr>
+</table>
+<form method="post" action="index.html">
+<fieldset>
+<legend>personal information</legend>
+<label>first name:</label><input type="text" name="fname" size="25">
+<label>last name:</label><input type="text" name="lname" size="25">
+<label>mobile:</label><input type="tel" name="mobile" size="25">
+<label>adress:<textarea col="70" rows="1" name="adress"></textarea></label>
+</fieldset>
+<fieldset>
+<legend>order details</legend>
+<select name="size">
+<option>select pizza size</option>    
+<option value="1">small pizza</option>
+<option value="2">medium pizza </option>
+<option value="3">large pizza</option>
+<option value="4">family pizza</option>
+</select>
+<select name="quantity">
+<option>pizza quantity</option>   
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+<label>delievery date</label><input type="date" name="date">
+<label>delievery time</label><input type="time" name="time">
+<select name="payment">
+<option>select payment method</option>
+<option vslue="1">easypaisa</option>
+<option value="2">mobicash</option>
+<option value="3">banktransfer</option>
+<option value="4">cash on delievery</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>cheeses</legend>
+<input type="radio" name="chees" value="1">mozzarella
+<input type="radio" name="chees" value="2">reduced fat
+<input type="radio" name="chees" value="3">feta
+<input type="radio" name="chees" value="4">provolone
+<input type="radio" name="chees" value="5">cheddar
+<input type="radio" name="chees" value="6">parmesan
+</fieldset>
+<fieldset>
+<legend>select sauce</legend>
+<input type="radio" name="sauce" value="1">pizza sauce
+<input type="radio" name="sauce" value="2">BBQ sauce
+<input type="radio" name="sauce" value="3">garlic sauce
+<input type="radio" name="sauce" value="4">pesto
+<input type="radio" name="sauce" value="5">garlic Ranch sauce
+<input type="radio" name="sauce" value="6">creamy Bechamel sauce
+<input type="radio" name="sauce" value="7">hummus sauce
+<input type="radio" name="sauce" value="8">Buffalo sauce
+</fieldset>
+<fieldset>
+<legend>select cold drink</legend>
+<input type="radio" name="drink" value="1">coke
+<input type="radio" name="drink" value="2">pepsi
+<input type="radio" name="drink" value="3">7up
+<input type="radio" name="drink" value="4">Dew
+<input type="radio" name="drink" valuw="5">Fanta
+<input type="radio" name="drink" value="6">Mirinda
+<input type="radio" name="drink" value="7">Sprite
+</fieldset>
+<fieldset>
+<legend>select pizza topping</legend>
+<input type="checkbox" name="topping" value="1">Anchovies
+<input type="checkbox" name="topping" value="2">pepperoni
+<input type="checkbox" name="topping" value="3">salami
+<input type="checkbox" name="topping" value="4">sausage
+<input type="checkbox" name="topping" value="5">green olives
+<input type="checkbox" name="topping" value="6">green peppers
+<input type="checkbox" name="topping" value="7">mushrooms
+<input type="checkbox" name="topping" value="8">red onion
+<input type="checkbox" name="topping" value="9">roasted garlic
+<input type="checkbox" name="topping" value="10">chicken
+</fieldset>
+<fieldset>
+<legend>special instruction</legend>
+<textarea name="instructions" rows="3" col="42"></textarea>
+</fieldset>
+<input type="submit" value="place your order">
+<input type="reset" value="start over">
+
+</form>
+
+</body>
+
+</html>
