@@ -32,6 +32,15 @@ This project demonstrates strong fundamentals in form handling, layout structuri
 
 ![Project Screenshot](screenshot.png)
 
+# Form Section
+
+![Project Screenshot](screenshot1.png)
+
+# Input Types
+
+![Project Screenshot](screenshot2.png)
+
+
 ---
 
 ## Project Objective
